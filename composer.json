@@ -1,0 +1,29 @@
+{
+    "name": "alse0017/yii2-flashmsg-widget",
+    "description": "Popup flash msg widget",
+    "type": "yii2-extension",
+	"keywords": ["yii2","extension","popup","flash","msg","widget"],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+		"alse0017/yii2-dismsg-asset": "^1.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sergey Alekseenko",
+            "email": "sergei_alekseenk@list.ru"
+        }
+    ],
+    "minimum-stability": "stable",
+	"autoload": {
+		"psr-4": {
+			"alse0017\\flashmsg\\": "src"
+		}
+	},
+	"repositories": [
+		{
+			"type": "composer",
+			"url": "https://asset-packagist.org"
+		}
+	]
+}
