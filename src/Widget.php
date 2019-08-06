@@ -2,8 +2,8 @@
 /**
  * Created by PhpStorm.
  * User: Alexeenko Sergey Aleksandrovich
- * Phone: +79231421947
  * Email: sergei_alekseenk@list.ru
+ * Company: https://machineheads.ru
  * Date: 05.08.2019
  * Time: 12:18
  */
