@@ -76,7 +76,9 @@ JS;
 	{
 		if(!is_array($msgs)) $msgs = [$msgs];
 		return array_map(function ($msg) {
-			return str_replace(["\n", "\\"], ["", "\\\\"], Html::encode((string)$msg));
+			$msg = str_replace(["\n", "\\"], ["", "\\\\"], Html::encode((string)$msg));
+			$msg = str_replace(['&lt;', '&gt;', '&quot;'], ['<', '>', '"'], $msg);
+			return $msg;
 		}, $msgs);
 	}
 }
