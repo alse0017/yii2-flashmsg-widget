@@ -5,7 +5,7 @@
 	"keywords": ["yii2","extension","popup","flash","msg","widget"],
     "require": {
         "yiisoft/yii2": "~2.0.0",
-		"alse0017/yii2-dismsg-asset": "^1.0"
+		"alse0017/yii2-dismsg-asset": "^1.0.1"
     },
     "license": "MIT",
     "authors": [
